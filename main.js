@@ -94,7 +94,7 @@ var ImageSequenceController = new ScrollMagic.Controller();
 var scene = new ScrollMagic.Scene({
     triggerElement: ".trigger", 
     triggerHook: 0,
-    offset: -100,
+    offset: 0,
     duration: pageLengt,
 })
                 
@@ -105,3 +105,7 @@ var scene = new ScrollMagic.Scene({
 
     
 });
+
+/* ---------------------------------- */
+/* Scroll Control! */
+
